@@ -1,0 +1,755 @@
+/* Custom Fonts */
+@font-face {
+  font-family: "Integral CF";
+  src: url("../assets/fonts/Fontspring-DEMO-integralcf-bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Santosi";
+  src: url("../assets/fonts/Satoshi-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+    scroll-behavior:smooth;
+}
+body {
+  font-family: "Santosi";
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+/* Deal Bar */
+.signup-msg {
+  font-size: clamp(.35rem, 1.5vw, .75rem);
+}
+
+.ri-xrp-line {
+  font-size: clamp(0.4rem, 2vw, 0.85rem);
+}
+
+/* Navbar */
+.ri-menu-4-fill {
+  font-size: clamp(0.9rem, 2vw, 0.85rem);
+}
+
+.logo {
+  font-family: "Integral CF";
+  font-size: clamp(0.9rem, 2vw, 1.6rem);
+}
+
+.menu-links ul li {
+  font-size: clamp(0.5rem, 1.4vw, .9rem);
+  cursor: pointer;
+}
+
+.menu-links ul li i {
+   font-size: clamp(0.55rem, 1.5vw, 1rem); 
+}
+.search-bar .search-container input {
+  font-size: clamp(0.4rem, 1.3vw, 0.8rem);
+}
+
+.search-bar .search-container i {
+  font-size: clamp(0.55rem, 1.3vw, 1rem);
+  cursor: pointer;
+}
+
+.cart-account-section i {
+  font-size: clamp(0.85rem, 2vw, 1.1rem);
+  cursor: pointer;
+}
+
+/* shop options */
+.menu- .shop-container .shop .options ul li {
+  font-size: clamp(0.5rem, 1.5vw, 0.75rem);
+  cursor: pointer;
+  font-family: "Santosi";
+}
+
+.menu-links .shop-container:hover .options {
+  display: inline-block;
+}
+
+.search:hover .options {
+  display: inline-block;
+}
+
+/* Search Bar */
+.search-result .search-results-container .search-item p{
+ font-size: clamp(0.5rem, 1.2vw, 0.65rem); 
+}
+/* Banner */
+.banner-section {
+  background: #f2f0f1;
+}
+
+.banner-section .punchline h1 {
+  font-family: "Integral CF";
+  font-size: clamp(1.2rem, 3.5vw, 4rem);
+}
+
+.banner-section .punch-line-detail p {
+  font-size: clamp(0.6rem, 1.6vw, 0.9rem);
+  color: #00000099;
+}
+
+.banner-section .shopnow-btn button {
+  font-size: clamp(0.6rem, 1.5vw, 0.75rem);
+}
+
+.metrics-section .metric {
+  font-size: clamp(0.95rem, 2.5vw, 1.5rem);
+}
+
+.metrics-section .metric-info {
+  font-size: clamp(0.5rem, 1.7vw, 0.8rem);
+  font-weight: 500;
+  color: #00000099;
+}
+
+.models-section {
+  background: #f2f0f1;
+}
+
+.models-section .vector img {
+  height: 70px;
+}
+
+.models-section img {
+  height: 400px;
+  transform: scale(125%);
+}
+
+.models-section .vector img {
+  height: 100px;
+}
+
+/*BrandsBanner  */
+.brands-logo img {
+  /* height: 80px; */
+  filter: invert(1);
+  cursor: pointer;
+}
+
+/* New arrivals */
+.newarrivals h1 {
+  font-family: "Integral CF";
+  font-size: clamp(1.2rem, 2vw, 4rem);
+}
+
+.newarrivals .product-wrapper .product-container img {}
+
+.newarrivals .products .text-container p {
+  font-weight: 600;
+  font-size: clamp(0.6rem, 1.1vw, 1rem);
+}
+
+.newarrivals .text-container .rating p {
+  font-size: clamp(0.45rem, 1vw, 0.5rem);
+}
+
+.newarrivals .products .text-container .discount {
+  font-size: clamp(0.45rem, 1vw, 0.6rem);
+}
+
+.newarrivals .viewall .viewall-btn {
+  font-size: clamp(0.6rem, 1vw, 1rem);
+}
+
+/* Top Selling */
+.topselling h1 {
+  font-family: "Integral CF";
+  font-size: clamp(1.2rem, 2vw, 4rem);
+}
+
+.topselling .product-wrapper .product-container img {}
+
+.topselling .products .text-container p {
+  font-weight: 600;
+  font-size: clamp(0.6rem, 1.1vw, 1rem);
+}
+
+.topselling .text-container .rating p {
+  font-size: clamp(0.45rem, 1vw, 0.5rem);
+}
+
+.topselling .products .text-container .discount {
+  font-size: clamp(0.45rem, 1vw, 0.6rem);
+}
+
+.topselling .viewall .viewall-btn {
+  font-size: clamp(0.6rem, 1vw, 1rem);
+}
+
+/* BrowseByDressStyle */
+.broswerbydrestyle-headline h1 {
+  font-family: "Integral CF";
+  font-size: clamp(1.2rem, 2vw, 4rem);
+}
+
+.dress-styles .dress-style .dress-style-name p {
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  font-weight: 900;
+}
+
+/* FeedBack */
+.feedback-headline h1 {
+  font-family: "Integral CF";
+  font-size: clamp(.8rem, 2.5vw, 4.5rem);
+}
+
+.feedback-container .arrows i {
+  font-size: clamp(.65rem, 2vw, 1rem);
+}
+
+.feedback .customer-name {
+  font-size: clamp(.65rem, 2vw, .88rem);
+  color: black;
+}
+
+.feedback p {
+  font-size: clamp(.65rem, 2vw, 0.7rem);
+  font-weight: 600;
+  color: #00000099;
+}
+
+/* Footer */
+.footer-container .newsletter h1 {
+  font-family: "Integral CF";
+  font-size: clamp(1.2rem, 3.6vw, 2.3rem);
+}
+
+.footer-container .newsletter i {
+  font-size: clamp(0.85rem, 2vw, 1rem);
+}
+
+.footer-container .newsletter .email-holder input {
+  font-size: clamp(0.65rem, 1vw, .85rem);
+  font-weight: 600;
+}
+
+.footer-container .newsletter button {
+  font-size: clamp(0.7rem, 2vw, .7rem);
+  font-weight: 600;
+}
+
+.footer-section .about-section .logo {
+  font-family: "Integral CF";
+  font-size: clamp(1.1rem, 2vw, 4rem);
+}
+
+.footer-section .about-section p {
+  font-size: clamp(0.65rem, 1vw, 0.9rem);
+  font-weight: 500;
+}
+
+.footer-section .links ul li {
+  color: #00000099;
+  font-size: clamp(0.6rem, 1.5vw, 0.85rem);
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.footer-section .links ul p {
+  font-size: clamp(0.65rem, 1.6vw, 0.75rem);
+  margin-bottom: 5px;
+}
+
+.footer-container .copyright-mark p {
+  color: #00000099;
+  font-size: clamp(0.5rem, 1.5vw, 0.9rem);
+}
+
+/* Product Details */
+.product-details-container .location p {
+  font-size: clamp(0.4rem, 1vw, 1rem);
+}
+
+.product-details .product-title h4 {
+  font-family: "Integral CF";
+  font-size: clamp(.8rem, 2.5vw, 1.6rem);
+}
+
+.product-details .price p {
+  font-size: clamp(0.75rem, 1.1vw, 1.2rem);
+}
+
+.product-details .description p {
+  font-size: clamp(0.5rem, 1.5vw, .8rem);
+}
+
+.product-details .color-selection p {
+  font-size: clamp(0.95rem, 2cvw, 1rem);
+}
+
+.product-details .size-selection p {
+  font-size: clamp(0.7rem, 1.1vw, 1rem);
+}
+
+.product-details .size-selection .size p {
+  font-size: clamp(0.5rem, 1.1vw, .8rem);
+}
+
+.product-details .quantityandcart .quantity i {
+  font-size: clamp(0.65rem, 1.1vw, .8rem);
+}
+
+.product-details .quantityandcart .quantity p {
+  font-size: clamp(0.7rem, 1.1vw, .8rem);
+}
+
+.product-details .quantityandcart .addtocart p {
+  font-size: clamp(0.55rem, 1.1vw, .8rem);
+}
+
+/* Similar Products */
+.suggestion-section h1 {
+  font-family: "Integral CF";
+  font-size: clamp(1.2rem, 2vw, 4rem);
+}
+
+.suggestion-section .product-wrapper .product-container img {}
+
+.suggestion-section .products .text-container p {
+  font-weight: 600;
+  font-size: clamp(0.6rem, 1.1vw, 1rem);
+}
+
+.suggestion-section .text-container .rating p {
+  font-size: clamp(0.45rem, 1vw, 0.5rem);
+}
+
+.suggestion-section .products .text-container .discount {
+  font-size: clamp(0.45rem, 1vw, 0.6rem);
+}
+
+.suggestion-section .viewall .viewall-btn {
+  font-size: clamp(0.6rem, 1vw, 1rem);
+}
+
+/* Category */
+.filters-container .headline {
+  font-size: clamp(.4rem, 2vw, .9rem);
+}
+
+.filters-container ul li {
+  font-size: clamp(.4rem, 1.8vw, .75rem);
+  color: #00000099;
+  font-weight: 600;
+}
+.filters-container p {
+  font-size: clamp(.35rem, 1vw, .65rem);
+  color: black;
+  font-weight: 600;
+}
+
+.filters-container button {
+  font-size: clamp(.4rem, 2vw, .75rem);
+}
+
+.products .headline h4 {
+  font-size: clamp(.4rem, 2vw, 1rem);
+}
+
+.products .headline p {
+  font-size: clamp(.4rem, 2vw, .76rem);
+  color: #00000099;
+}
+
+.product-wrapper .product-container .product-info .title p {
+  font-size: clamp(.4rem, 2vw, .9rem);
+}
+
+.product-wrapper .product-container .product-info .price p {
+  font-size: clamp(.4rem, 2vw, .8rem);
+}
+
+.product-wrapper .product-container .product-info .rating p {
+  font-size: clamp(.4rem, 2vw, .6rem);
+}
+
+.pagination .pages .previous-arrow,
+.next-arrow i {
+  font-size: clamp(.5rem, 2vw, .9rem);
+}
+
+.pagination .pages .previous-arrow,
+.next-arrow p {
+  font-size: clamp(.5rem, 2vw, .9rem);
+}
+
+.pagination .pages ul li {
+  font-size: clamp(.5rem, 2vw, .9rem);
+}
+
+/* Cart */
+.cart-headline h4 {
+  font-family: "Integral CF";
+  font-size: clamp(.99rem, 2.2vw, 4rem);
+}
+
+.cart-container .product-wrapper .product-container .product-info .information .title p {
+  font-size: clamp(.45rem, 1.5vw, 1rem);
+}
+
+.cart-container .product-wrapper .product-container .product-info .information .category p {
+  font-size: clamp(.42rem, 1.5vw, .8rem);
+}
+
+.cart-container .product-wrapper .product-container .product-info .information .price p {
+  font-size: clamp(.5rem, 1.5vw, .85rem);
+}
+
+.cart-container .product-wrapper .product-container .remove-items .quantity p {
+  font-size: clamp(.5rem, 1.5vw, .7rem);
+}
+
+.cart-container .product-wrapper .product-container .remove-items .quantity i {
+  font-size: clamp(.55rem, 2vw, .9rem);
+}
+
+.cart-container .product-wrapper .product-container .remove-items .ri-delete-bin-6-line {
+  font-size: clamp(.65rem, 2vw, .95rem);
+}
+
+.order-summary .order-summary-headline {
+  font-size: clamp(.6rem, 2vw, .9rem);
+}
+
+.order-summary .summary-details p {
+  font-size: clamp(.45rem, 2vw, .79rem);
+}
+
+.order-summary .summary-details input {
+  font-size: clamp(.4rem, 2vw, .8rem);
+  outline: none;
+}
+
+.order-summary .summary-details button {
+  font-size: clamp(.6rem, 2vw, .8rem);
+}
+.order-summary .summary-details .order p {
+  font-size: clamp(.6rem, 2vw, .8rem);
+}
+/* signup */
+.signup-container .signup-form .headline {
+  font-size: clamp(1.2rem, 2vw, 1.3rem);
+}
+
+.signup-container .signup-form .signupusingplatfrom p {
+  font-size: clamp(.75rem, 1vw, .8rem);
+}
+
+.signup-container .signup-form .signupusingplatfrom .byemail {
+  font-size: clamp(.5rem, 1vw, .6rem);
+}
+
+.signup-container form .form-container input,
+i,
+button {
+  font-size: clamp(.65rem, 2vw, .7rem);
+}
+
+.signup-container form p {
+  font-size: clamp(.5rem, 1vw, .55rem);
+}
+
+/* Account */
+.account-wrapper .account-container .profile-photo .image-container {
+  background: url(https://community.wolfram.com//c/portal/getImageAttachment?filename=disks8Lq.gif&userId=610054);
+  background-size: cover;
+}
+
+.account-wrapper .account-headline p {
+  font-family: "Integral CF";
+  font-size: clamp(1rem, 2vw, 1.7rem);
+}
+
+.account-wrapper .account-container .username p {
+  font-size: clamp(.75rem, 2vw, 1.2rem);
+  color: white;
+}
+
+.account-wrapper .account-container .options i {
+  font-size: clamp(.9rem, 2vw, 1.2rem);
+}
+
+.account-wrapper .account-container .options p {
+  font-size: clamp(.7rem, 2vw, .9rem);
+}
+
+/* Orders */
+.orders-container .order-headline p {
+  font-family: "Integral CF";
+  font-size: clamp(1rem, 2vw, 1.7rem);
+}
+
+.orders-container .order-headline .orders-count p,
+i {
+  font-size: clamp(.65rem, 2vw, .95rem);
+  font-family: "Santosi";
+}
+
+.orders-container .orders .order .title p {
+  font-size: clamp(.45rem, 1vw, .75rem);
+}
+
+.orders-container .orders .order .quantity p {
+  font-size: clamp(.45rem, 1vw, .75rem);
+}
+
+.orders-container .orders .order .expected-delivery p {
+  font-size: clamp(.45rem, 1vw, .75rem);
+}
+
+.orders-container .orders .order .category p {
+  font-size: clamp(.45rem, 1vw, .75rem);
+}
+
+.orders-container .orders .order .total-charges p {
+  font-size: clamp(.45rem, 1vw, .75rem);
+}
+
+.orders-container .orders .order button {
+  font-size: clamp(.5rem, 1vw, .75rem);
+}
+
+.orders-container .total-sumup .summary .total p {
+  font-size: clamp(.45rem, 1vw, .75rem);
+}
+
+.orders-container .total-sumup .summary .order-summary p {
+  font-size: clamp(.6rem, 2vw, .9rem);
+}
+
+/* Brands */
+.brands .brands-headline p {
+  font-family: "Integral CF";
+  font-size: clamp(1rem, 2.5vw, 1.8rem);
+}
+
+.brands img {
+  filter: invert(1);
+
+}
+
+.brands-container .brand .title p {
+  font-size: clamp(.75rem, 2vw, .9rem);
+  font-weight: 600;
+}
+
+.brands-container .brand .price-range p {
+  font-size: clamp(.6rem, 2vw, .9rem);
+  font-weight: 600;
+}
+
+.brands-container .brand .clothing p {
+  font-size: clamp(.55rem, 2vw, .9rem);
+  font-weight: 600;
+}
+
+/* Onsale */
+.onsale-container .onsale-headline p {
+  font-family: "Integral CF";
+  font-size: clamp(1rem, 2.5vw, 1.8rem);
+}
+
+.onsale-container .products .text-container p {
+  font-weight: 600;
+  font-size: clamp(0.6rem, 1.1vw, 1rem);
+}
+
+.onsale-container .text-container .rating p {
+  font-size: clamp(0.45rem, 1vw, 0.5rem);
+}
+
+.onsale-container .products .text-container .discount {
+  font-size: clamp(0.45rem, 1vw, 0.6rem);
+}
+
+.onsale-container .viewall .viewall-btn {
+  font-size: clamp(0.6rem, 1vw, 1rem);
+}
+/* Slide Menu  */
+.slide-menu .menu-links .shop-co-headline h1{
+    font-family: "Integral CF";
+  font-size: clamp(.8rem, 2.5vw, 1.9rem);
+}
+.slide-menu .menu-links ul li{
+  font-size: clamp(.7rem, 2vw, .8rem);
+}
+.slide-menu .menu-links ul li i{
+  font-size: clamp(1rem, 2.2vw, 1.2rem);
+}
+.slide-menu .menu-links .shop-co-headline i{
+  font-size: clamp(.8rem, 2.5vw, 1.3rem);
+}
+.slide-menu .copyright p{
+  font-size: clamp(.5rem, 1.5vw, .6rem);
+}
+/* preloader */
+.preloader .shopco .logo {
+   font-family: "Integral CF";
+  font-size: clamp(2.5rem, 5vw, 5rem); 
+};
+
+/* Edit Profile */
+.editprofile form p{
+   color: white;
+  font-size: clamp(.55rem, 1vw, .95rem);
+}
+.editprofile input,option,select {
+  font-size: clamp(.55rem, 1vw, .95rem);
+}
+.editprofile .error{
+  color:red;
+    font-size: clamp(.35rem, 1vw, .6rem);
+}
+
+/* Wishlist */
+.wishlist-headline h4 {
+  font-family: "Integral CF";
+  font-size: clamp(.99rem, 2.2vw, 4rem);
+}
+
+.wishlist-container .product-wrapper .product-container .product-info .information .title p {
+  font-size: clamp(.6rem, 2vw, 1rem);
+}
+
+.wishlist-container .product-wrapper .product-container .product-info .information .category p {
+  font-size: clamp(.45rem, 2vw, .8rem);
+}
+
+.wishlist-container .product-wrapper .product-container .product-info .information .price p {
+  font-size: clamp(.55rem, 2vw, .85rem);
+}
+
+.wishlist-container .product-wrapper .product-container .remove-items .quantity p {
+  font-size: clamp(.5rem, 2vw, .7rem);
+}
+
+.wishlist-container .product-wrapper .product-container .remove-items .quantity i {
+  font-size: clamp(.55rem, 2vw, .95rem);
+}
+
+.wishlist-container .product-wrapper .product-container .remove-items .ri-delete-bin-6-line {
+  font-size: clamp(.65rem, 2vw, .95rem);
+}
+
+.wishlist-summary .order-summary-headline {
+  font-size: clamp(.6rem, 2vw, .9rem);
+}
+
+.wishlist-summary .summary-details p {
+  font-size: clamp(.45rem, 2vw, .79rem);
+}
+
+.wishslist-summary .summary-details input {
+  font-size: clamp(.4rem, 2vw, .8rem);
+  outline: none;
+}
+
+.wishlist-summary .summary-details button {
+  font-size: clamp(.4rem, 1.7vw, .8rem);
+}
+
+/* Notification */
+.notification-container {
+  z-index:1000;
+}
+.notification-container .notification  p{
+  font-size: clamp(.4rem, 1.7vw, .7rem);
+}
+ @keyframes slideDown {
+      0% {
+        transform: translateY(-100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .animate-slide-down {
+      animation: slideDown 0.6s ease-out forwards;
+    }
+/* Media Queries with First Mobile Approach */
+@media (min-width: 0px) {
+  .models-section .vector img {
+    height: 30px;
+  }
+
+  .models-section img {
+    height: 235px;
+    transform: scale(127%);
+  }
+
+  .newarrivals .product-wrapper .product-container img {
+    height: 120px;
+  }
+
+  .topselling .product-wrapper .product-container img {
+    height: 120px;
+  }
+  .onsale-container .product-wrapper .product-container img {
+    height: 120px;
+  }
+}
+
+@media (min-width:425px) {
+  .brands-logo img {
+    height: 70px;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .models-section .vector img {
+    height: 30px;
+  }
+
+  .models-section img {
+    height: 420px;
+    transform: scale(120%);
+  }
+
+  .topselling .product-wrapper .product-container img {
+    height: 140px;
+  }
+
+  .newarrivals .product-wrapper .product-container img {
+    height: 140px;
+  }
+   .onsale-container .product-wrapper .product-container img {
+    height: 140px;
+  }
+}
+
+@media (min-width:1024px) {
+  .brands-logo img {
+    height: 80px;
+  }
+ .models-section .vector img {
+    height: 40px;
+  }
+  .topselling .product-wrapper .product-container img {
+    height: 220px;
+  }
+
+  .newarrivals .product-wrapper .product-container img {
+    height: 220px;
+  }
+  .onsale-container .product-wrapper .product-container img {
+    height: 220px;
+  }
+  .models-section img {
+    height: 500px;
+  }
+}
