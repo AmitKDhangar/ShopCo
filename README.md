@@ -39,8 +39,4 @@ This project is licensed under the **MIT License**.
 
 * * * * *
 
-### ✨ Credits
-
--   **Amit** -- UI & React setup
-
--   **Abhivansh Pal** -- Redux Toolkit logic
+oo
